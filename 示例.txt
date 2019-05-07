@@ -1,0 +1,11 @@
+写法：
+<select name="table_uuid" id="table_uuid">
+<option value="">----请选择----</option> 
+<option value="">----量表一----</option> 
+<option value="">----量表二----</option> 
+<option value="">----量表三----</option> 
+<option value="">----量表四----</option> 
+</select> 
+
+只要要把js引入后初次加载时根据id来调用方法：
+$("#table_id").comboSelect();就行了
